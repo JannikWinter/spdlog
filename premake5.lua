@@ -6,6 +6,8 @@ project "spdlog"
 	language "C++"
 	targetdir "%{spdlogBuildPath}"
 
+	warnings "Off"
+
 	defines {
 		"SPDLOG_COMPILED_LIB"
 	}
